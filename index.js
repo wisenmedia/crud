@@ -17,7 +17,7 @@ app.use(express.static("public"));
 const pool = new pg.Pool({
   user: 'postgres',
   host: 'localhost',  
-    database: 'school',
+    database: 'world',
     password: 'Benson6969$',
     port: 5432, // default PostgreSQL port
 });
