@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
     <title>My crud application </title>
 </head>
 <body>
@@ -17,7 +18,7 @@
         <button type="submit">Submit</button>   
     </form>
 
-    <h2>Users</h2>
+    <h2 id="users">Users</h2>
     <ul>
         <% if (users && users.length > 0) { %>
             <% users.forEach(function(user) { %>
