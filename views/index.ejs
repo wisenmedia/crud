@@ -19,6 +19,7 @@
     </form>
 
     <h2 id="users">Users</h2>
+    <div id="user-list">
     <ul>
         <% if (users && users.length > 0) { %>
             <% users.forEach(function(user) { %>
@@ -30,7 +31,7 @@
             <li>No users found.</li>
         <% } %>
     </ul>
-    
+    </div>
 </body>
  <script>
     function handler(id) {
